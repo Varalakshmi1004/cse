@@ -1,0 +1,8 @@
+<suite name="Sauce">
+<test name="testSauce">
+<classes>
+<class name="Selenium.TestNG_Sauce">
+</class>
+</classes>
+</test>
+</suite>

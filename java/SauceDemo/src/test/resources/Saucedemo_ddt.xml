@@ -1,0 +1,10 @@
+<suite name="SauceDemo">
+ <listeners>
+        <listener class-name="SauceDemo.SwagLabsListeners"/>
+    </listeners>
+	<test name= "Sauce Demo Test">
+		<classes>
+			<class name="SauceDemo.Swag_Labs"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sauce]">
+  <test thread-count="5" name="testSauce(failed)">
+    <classes>
+      <class name="Selenium.TestNG_Sauce">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="setUp"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- Selenium.TestNG_Sauce -->
+    </classes>
+  </test> <!-- testSauce(failed) -->
+</suite> <!-- Failed suite [Sauce] -->

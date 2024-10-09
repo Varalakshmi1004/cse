@@ -1,0 +1,10 @@
+<suite name="Practo">
+<listeners>
+	<listener class-name="PractoTest.PractoListeners"/>
+</listeners>
+	<test name= "Practo Test">
+		<classes>
+			<class name="PractoTest.PractoTestFile"></class>
+		</classes>
+	</test>
+</suite>

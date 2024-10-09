@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo" class="navigator-link ">
+                    <span>C:\Users\VaralakshmiB\Desktop\java\SauceDemo\src\test\resources\Saucedemo_ddt.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo" class="hide-methods passed suite-SauceDemo"> (hide)</a> <!-- hide-methods passed suite-SauceDemo -->
+                      <a href="#" panel-name="suite-SauceDemo" class="show-methods passed suite-SauceDemo"> (show)</a> <!-- show-methods passed suite-SauceDemo -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithInValidCredentials">loginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithInValidCredentials">loginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="loginWithvalidCredentials">loginWithvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="SauceDemo.Swag_Labs" class="method navigator-link" hash-for-method="product_in_cart">product_in_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo" class="panel SauceDemo">
+          <div class="suite-SauceDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SauceDemo.Swag_Labs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInValidCredentials">
+                  </a> <!-- loginWithInValidCredentials -->
+                  <span class="method-name">loginWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInValidCredentials">
+                  </a> <!-- loginWithInValidCredentials -->
+                  <span class="method-name">loginWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithvalidCredentials">
+                  </a> <!-- loginWithvalidCredentials -->
+                  <span class="method-name">loginWithvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product_in_cart">
+                  </a> <!-- product_in_cart -->
+                  <span class="method-name">product_in_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo-class-passed -->
+        </div> <!-- panel SauceDemo -->
+        <div panel-name="test-xml-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\VaralakshmiB\Desktop\java\SauceDemo\src\test\resources\Saucedemo_ddt.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemo&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;SauceDemo.SwagLabsListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Sauce Demo Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SauceDemo.Swag_Labs&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sauce Demo Test --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sauce Demo Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo');
+function tableData_SauceDemo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'product_in_cart')
+data.setCell(0, 2, 'SauceDemo.Swag_Labs')
+data.setCell(0, 3, 7147);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWithvalidCredentials')
+data.setCell(1, 2, 'SauceDemo.Swag_Labs')
+data.setCell(1, 3, 5660);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithvalidCredentials')
+data.setCell(2, 2, 'SauceDemo.Swag_Labs')
+data.setCell(2, 3, 1283);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithvalidCredentials')
+data.setCell(3, 2, 'SauceDemo.Swag_Labs')
+data.setCell(3, 3, 714);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginWithInValidCredentials')
+data.setCell(4, 2, 'SauceDemo.Swag_Labs')
+data.setCell(4, 3, 633);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginWithvalidCredentials')
+data.setCell(5, 2, 'SauceDemo.Swag_Labs')
+data.setCell(5, 3, 633);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginWithvalidCredentials')
+data.setCell(6, 2, 'SauceDemo.Swag_Labs')
+data.setCell(6, 3, 592);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginWithInValidCredentials')
+data.setCell(7, 2, 'SauceDemo.Swag_Labs')
+data.setCell(7, 3, 576);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginWithvalidCredentials')
+data.setCell(8, 2, 'SauceDemo.Swag_Labs')
+data.setCell(8, 3, 571);
+window.suiteTableData['SauceDemo']= { tableData: data, tableDiv: 'times-div-SauceDemo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-SauceDemo">
+              </div> <!-- times-div-SauceDemo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SauceDemo.Swag_Labs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">6250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">7535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">8170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">8885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">14545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithvalidCredentials</span>
+                <span class="method-start">15116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">product_in_cart</span>
+                <span class="method-start">15720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithInValidCredentials</span>
+                <span class="method-start">22867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithInValidCredentials</span>
+                <span class="method-start">23500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverQuit</span>
+                <span class="method-start">24076 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

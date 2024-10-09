@@ -1,0 +1,19 @@
+Automation testing :
+
+	software testing technique that uses specialized tools and scripts to execute tests automatically, rather than manually performing them.
+	
+
+	When it is used?
+	Regression testing :Verifying that new code changes do not negatively affect existing features.
+
+	Automation Testing Implementation
+	Testers use tools like Selenium to create scripts that automatically test key functionalities.
+
+	Test Scripts Creation: The testing team writes scripts for critical functions 
+	Automation Setup: These scripts are set up to run automatically whenever there’s a code change.
+	Execution: When a developer pushes new code, the automation system triggers the test scripts to run in the background.
+
+	Benifits:
+	Time Efficiency: Tests that once took hours can now be completed in minutes.
+ 	Consistent Results: Automated tests are consistent and less prone to error compared to manual tests.
+	Faster Feedback: Developers receive immediate feedback on whether their changes broke anything, enabling quicker fixes.

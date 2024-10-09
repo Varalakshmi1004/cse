@@ -1,0 +1,141 @@
+Git- used for VCS-Version control System
+Repository-Folder/package
+Staging area-medium between working directory and local reopository
+Working Directory- untracked files-present working folder
+Remote- somewhere in internet
+local-in your own computer
+
+
+git init-To initialize the folder or file to use as git repository
+		.git hidden file created in the folder
+git status- to know the status of git --only shows the files in working directory and staging are but not the files in local repository
+
+we can send single file from working directory to staging area 
+but we can only send batch of files from staging area to local to remote using commit and push
+
+git add <filename> - send files from working area to staging area
+
+git commit -m "message"  - to send files from staging area to local repository
+
+git remote add <reference_name> <repository url>- to connect local repository and remote repository
+
+git push -u origin <branchname> -- to save files in remote repository
+
+Branch-- 
+	default branch-master--Code that going to be deployed is located in master branch
+
+	pull requests- PR- requesting to add the code from a branch to master branch
+
+	git branch -to know on which branch we are working
+
+	git branch <branch_name>-- to create a branch
+
+	git checkout <branch_name> -- to jump from one branch to another(switch)
+
+	git checkout -b <branch_name> -- to create and jump to that branch   these are all done in local 
+
+	Merging
+		
+		git merge <branch_name> - the files in given branch is merged into current branch
+
+
+Deleting--
+	
+	git rm <file_name>-- to delete a file from local repository and working directory
+	to commit the change in local repository git commit -m"file deleted"
+
+	git rm --cached filename- to delete the file only from local repository
+
+	git push -u origin  branch-deleting the branch in remote repository
+
+	git branch -d <branch_name>-- to delete a branch in local repository
+
+	git push origin --delete <branch_name> -- to delete a branch in remote repository
+
+	git rm -r * - to delete all the files in a branch
+
+
+Stash command--
+
+	git stash-- to save the changes before committing
+
+	git stash list- saved stashes
+
+	git stash apply - to reapply the stash- to get back the changes
+
+	git stash pop - to reapply the recent stash and remove the stash from the stash list
+
+	git stash pop stash@{0} - to reapply the specific stash and remove the stash from the stash list
+
+	git stash apply stash@{0} - to reapply the specific stash
+
+	git stash drop - to delete the stash from the stash list(recent one)
+
+	git stash drop stash@{0} - to delete the specific stash from the stash list
+
+	git stash clear - to clear all the stashes
+
+	git stash push -m "Descriptive message" - to add a descriptive message to a stash
+
+Reset--
+
+	git reset <commit-id>-- delete the commits after the id we have 
+
+
+Revert--
+
+	git revert <commit id>-- used to undo changes introduced by a specific commit while preserving the commit history
+		after reverting, we have to commit
+
+	git revert <oldest-commit id>^..<latest-commit id>-- to undo the changes from specific commit to another specific commit
+
+Log--
+
+	git log-- to view the list of commits with details such as the commit hash, author, date, and commit message
+
+	git log --oneline-- to view the commit history in simple format
+
+	git log -p-- includes the diff (changes made) in the commit history output
+
+	git log -n <number> - displays specific number of commits in a list
+
+	git log <start-commit>..<end-commit>--displays commits between the specified start and end commits
+
+	git log -- <file>-- displays commit history for specific file
+
+	git log --author="Author Name" -- displays commit history of specific author
+
+	git log --graph --oneline --decorate- displays commit history in visual representation along with one line information
+
+	git log --since="2024-01-01" --until="2024-01-31"- view commit history within specific dates
+
+
+Merge--
+
+	git merge <target_branch>--to merge the branches
+
+Cherry pick--
+
+	git cherry-pick <commit-id> - when you want to change the commit in another branch, cherry pick is used
+						if we want to add certain commit changes from one branch to another ,cherry pick is used
+
+Rebase--
+
+	git rebase <target_branch>--
+
+
+Config--
+
+	git config --list--displays all the configuration setings
+
+
+blame--
+
+
+
+
+	
+
+
+	
+	

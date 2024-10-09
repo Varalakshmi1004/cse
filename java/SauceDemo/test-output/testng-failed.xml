@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo]">
+  <listeners>
+    <listener class-name="SauceDemo.SwagLabsListeners"/>
+  </listeners>
+  <test thread-count="5" name="Sauce Demo Test(failed)">
+    <classes>
+      <class name="SauceDemo.Swag_Labs">
+        <methods>
+          <include name="product_in_cart"/>
+          <include name="driverQuit"/>
+          <include name="setUp"/>
+          <include name="loginWithInValidCredentials"/>
+          <include name="loginWithvalidCredentials"/>
+        </methods>
+      </class> <!-- SauceDemo.Swag_Labs -->
+    </classes>
+  </test> <!-- Sauce Demo Test(failed) -->
+</suite> <!-- Failed suite [SauceDemo] -->

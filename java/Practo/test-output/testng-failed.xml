@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practo]">
+  <listeners>
+    <listener class-name="PractoTest.PractoListeners"/>
+  </listeners>
+  <test thread-count="5" name="Practo Test(failed)">
+    <classes>
+      <class name="PractoTest.PractoTestFile">
+        <methods>
+          <include name="url"/>
+          <include name="driverQuit"/>
+          <include name="report"/>
+          <include name="filterValidation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PractoTest.PractoTestFile -->
+    </classes>
+  </test> <!-- Practo Test(failed) -->
+</suite> <!-- Failed suite [Practo] -->

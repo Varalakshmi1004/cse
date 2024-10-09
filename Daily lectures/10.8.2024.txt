@@ -1,0 +1,49 @@
+porting and integration
+porting-process of adapting software so that it can run on a different platform
+   platform porting
+   programming porting - php to java
+   user interface porting
+  examples of porting- games- developed for play stations then may be converted it for pcs and mobiles or differenr os,application,web application- to use on different platforms
+Challenges:
+	compatibility
+API , System calls , hardware requirements-for porting ,we need to know about these topics
+Integration-process of combining of single modules or units into one
+monolithic and microlithic services architecture
+how integration will be done
+errors occured during integration
+	segmentation fault-memory
+	cross compiler errors- platform
+TCLTK- tickle teak- enable building graphical user interface
+l3
+OSPF protocl-open shortest path first-interior gateway protocol
+BGP protocal-Boarder Gateway protocol- exterior gateway protocol-for networking it used
+RIP-
+L2
+STP
+RSTP
+ERPS
+ECFM
+transport protocol
+UDP
+TCP
+
+topology-functional testing
+ping one system in topology to another
+routers are connected in ospf protocol
+link state advertisement
+sonarQube- code review tool
+Pylint- to check or review the code duplications
+Microsoft copilot
+bit bucket
+github
+gitlab
+junkins
+Azure devops
+roll back mechanism
+pipeline
+AWS
+Micro service architecture
+docar
+Database SQL
+postman-try-soap,rest-collection creation-XML,JSON
+SoapUI-try-soap,rest-new project creation-XML,JSON

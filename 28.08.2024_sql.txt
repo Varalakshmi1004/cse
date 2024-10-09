@@ -1,0 +1,5 @@
+sql-structured query language
+
+database -collection of data
+
+db products- mysql, postgresql, mangoDB

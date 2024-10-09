@@ -1,0 +1,21 @@
+Models
+	Agile
+	  scrum--iteration and increment(push) to production--(fixed schedule)--incase of incompletion of task, we move it to another sprint based on internal
+			discussion(priority)--incase of completion of task before the deadline, the team will be ideal until another sprint will be started
+	  linear--
+	  Kanbun-- assigned sprints to different team members and after completion of sprints push it into production and assign another sprint to the member
+	  SP--
+	     terms-- product backlog: bugs,features,tasks,stories.
+		       sprint backlog: the features to be developed in current sprint.
+  			 scrum master: person who tracks or coordinates the team and project.
+			 team: developers and testers.
+			 product owner: gives the requirement and acts as point of contant.
+			 sprint review: the review conducted after the sprint developed.
+			 stand up call: discussion of plan and any updates regarding the project.
+			 rectrospective meeting: incase of any challenges or issues faced in developing the project,rectrospective meeting will be conducted.
+Task: Agile principles, Scrum vs Kanban
+Agile: Ability to move quickly
+Agility:Adaptability
+
+			
+ 

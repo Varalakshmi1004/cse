@@ -1,0 +1,9 @@
+Test Case design techniques/Black box testing techniques
+	Boundary value Analysis - for text box
+	Equivalence Class Partition - valid and invalid partition
+	Decision table - 
+		causes and effects- to write the combinations,decision table is used
+	State Transition - Changing one status to another 
+	Error Guessing - testers uses their experience to identify the areas of an application where defects like to occur
+
+			

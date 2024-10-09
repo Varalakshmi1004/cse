@@ -1,0 +1,37 @@
+/* src/App.css */
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.edit, .delete {
+  cursor: pointer; /* Change cursor to pointer */
+  margin-left: 10px; /* Space between symbols */
+}
+

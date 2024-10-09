@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [s1]">
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="Selenium.TestNG_ADS">
+        <methods>
+          <include name="setUp"/>
+          <include name="testing"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- Selenium.TestNG_ADS -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [s1] -->

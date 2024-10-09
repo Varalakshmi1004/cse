@@ -1,0 +1,30 @@
+Test case Design
+
+to write the test cases, we need to do
+	.understand the requirements
+		user stories/ epic (JIRA)
+		discuss within the team and if any clarifications needed, get answers from product owner
+	.identify the scenarios
+		positive and negative scenarios
+	.design the scenarios
+Note: 1 scenario will have one or more testcases
+
+to write the testcases, we have to follow the testcase template
+   	. TestcaseID
+	. ScenarioID
+	. TestName
+	. Pre conditions
+	. Priority
+	. Steps to run (how to test)
+	. Expected Result
+	. TestData
+	. Actual results
+	. Status
+after test execution, if the actual results and expected result is same, then the status is passed. otherwise status is failed 
+
+Terms used:   Mobile- screen   web- page   desktop- window
+example: for desktop,    Verify the login page
+
+
+task : Facebook Registration
+	 Flipkart Add to cart page write down the test cases

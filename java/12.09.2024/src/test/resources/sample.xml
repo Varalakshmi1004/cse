@@ -1,0 +1,7 @@
+<suite name="s1">
+<test name="test1">
+<classes>
+<class name="Selenium.TestNG_ADS">
+</class></classes>
+</test>
+</suite>

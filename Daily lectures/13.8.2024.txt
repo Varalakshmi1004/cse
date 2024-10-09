@@ -1,0 +1,21 @@
+Unit testing- validation - small piece of code -testing one single module/program/method in a program
+Review- Verification
+Test Execution: 
+	based on the situation ,test execution will be done by diff people
+Statement coverage testing- every  line of code must be tested atleast once
+Condition coverage testing- Testing conditional statements like if else and also looping statements like for ,while
+					validate true or false
+
+example:
+	read p,q
+	if(p+q>100)
+		print large
+	end if
+	if(p>50)
+		print plarge
+	end if
+  inputs (p=60,q=50)
+	two statements are printed.
+	Statement coverage is 1
+  inputs (p=60,q=50),(p=40,q=10)
+	 branch coverage is 2
